@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Название продукта"
+              android:id="@+id/name"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Сколько дней годен"
+              android:id="@+id/year"
+              android:inputType="number"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сохранить"
+            android:id="@+id/btn_save"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Удалить"
+            android:id="@+id/btn_delete"/>
+</LinearLayout>
