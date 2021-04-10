@@ -20,7 +20,8 @@ public class User {
         this.days = days;
         this.date1 = date1;
         Date date2 = new Date();
-        expirationDate = formater.format(date2.getTime()+days*86400000);
+        long longTime = (days*86400000L);
+        expirationDate = formater.format(date2.getTime()+longTime);
 
     }
 
